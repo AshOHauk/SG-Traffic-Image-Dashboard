@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* CSS Rest */
+* {
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+body {
+  margin:auto;
+  font-family: Helvetica, sans-serif;
+  @apply
+  bg-neutral-200
+}
+
+.btn {
+  @apply 
+    bg-amber-600
+    py-2 px-3 my-2
+    inline-block
+    text-white
+    rounded-md
+    border-2
+    border-amber-600
+}
+
+h1 {
+  @apply
+    text-4xl
+    text-center
+    text-gray-800
+    font-bold
+    mb-4
+}
+
+h2 {
+  @apply
+    text-2xl
+    text-gray-800
+    font-bold
+    mb-4
+} 
+
+h3 {
+  @apply
+    text-xl
+    text-gray-800
+    font-bold
+    mb-4
+}
+
+p {
+  @apply
+    text-gray-800
+    text-sm
+    mb-4
+}
