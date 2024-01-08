@@ -54,7 +54,7 @@ export function PageHeader() {
                 >
                     <Search />
                 </Button>
-                <Button size="icon" variant="ghost">
+                <Button size="icon" variant="ghost" class="lg:hidden">
                     <Bell />
                 </Button>
                 <Button size="icon" variant="ghost">
